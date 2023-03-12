@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-uri="mongodb+srv://Abrarsh2209:yfh5JEt7lTb53ZxM@cluster0.2kgbnxq.mongodb.net/AbrarAPI?retryWrites=true&w=majority";
+uri="mongodb://mongo:pCaTfWJVx1BePOCgVjBo@containers-us-west-183.railway.app:5492";
 const connectDB=()=>{
     //console.log("connect db");
     return mongoose.connect(uri,{
